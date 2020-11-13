@@ -1,0 +1,4 @@
+/fefs/onsite/monitoring/evb-test operator1(rw) operatorSpare(rw)
+/fefs/onsite/monitoring/weather 10.1.12.1(rw) operator1(rw)
+/fefs/onsite/monitoring/driveLST1/DrivePositioning 10.1.12.1(ro) operator1(ro)
+/fefs/onsite/monitoring/driveLST1/DriveOutput operator1(ro)
