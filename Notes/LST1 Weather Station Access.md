@@ -47,7 +47,7 @@ Best
 * Every ~10 seconds connections from user `lst1` from `login2-int.ctan` (see `/var/log/messages`)
 
 * Some of the NFS packages on safetycollector are older:
-```dotnetcli
+```bash
 libnfsidmap.x86_64                      0.25-19.el7                    @anaconda
 nfs-utils.x86_64                        1:1.3.0-0.61.el7               @anaconda
 nfs4-acl-tools.x86_64                   0.3.3-19.el7                   @anaconda
@@ -63,7 +63,7 @@ nfs4-acl-tools.x86_64                   0.3.3-19.el7                   @anaconda
 
 
 # Resolution
-* Lower the MTU from 9000 to 1492 solved the issue `ip link set dev eth0 mtu 1492`
+* Lower the MTU from 9000 to 1492 solved the issue `ip link set dev eno1 mtu 1492`
 * Persisted in `/etc/sysconfig/network-scripts/ifcfg-eno1` -- `MTU=1492`
 
 
